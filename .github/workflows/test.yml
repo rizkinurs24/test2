@@ -28,4 +28,4 @@ jobs:
       - name: Validate project
         run: npm run validate
       - name: Deploy project
-        run: npm run deploy
+        run: node_modules/.bin/suitecloud project:deploy 
