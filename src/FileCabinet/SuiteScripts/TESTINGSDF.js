@@ -17,7 +17,7 @@ define(['N/record', 'N/search', 'N/ui/serverWidget'],
          * @since 2015.2
          */
         const onRequest = (scriptContext) => {
-
+            
         }
 
         return {onRequest}
